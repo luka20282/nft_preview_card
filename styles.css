@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fraunces:opsz,wght@9..144,300&family=Montserrat&family=Outfit&family=Square+Peg&display=swap');
+body{
+    background-color: #0D1A2D;
+}
+.image{
+    position: relative;
+}
+.image_overlay{
+    position: absolute;
+    margin: 25px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: rgba(27, 253, 249, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.image_overlay:hover{
+    opacity: 1;
+}
+.container{
+    margin: auto;
+    margin-top: 10%;
+    height: 600px;
+    width: 350px;
+    background-color: #15273F;
+    border-radius: 12px;
+    box-shadow: 10px 10px 80px black; 
+}
+.view{
+    position: relative;
+}
+.nft{
+    height: 300px;
+    width: auto;
+    border-radius: 12px;
+    margin: 25px;
+}
+.nft:hover{
+    color: #1BFDF9;
+}
+.name{
+    font-family: "Outfit";
+    color: #ffffff;
+    margin: 0 25px;
+    transition: 0.25s;
+}
+.name:hover{
+    color: #1BFDF9;
+}
+.description{
+    font-family: "Outfit";
+    color: #879CB9;
+    margin: 25px;
+}
+.line{
+    width: 300px;
+    border: 0.5px solid #879CB9;
+    background-color: #879CB9;
+}
+.info{
+    margin: 25px;
+}
+.avatar{
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+    height: 30px;
+    margin: 10px 0;
+}
+.creator{
+    margin: 10px 25px;
+}
+.creator_name{
+    font-family: "Outfit";
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+#crt{
+    color: #879CB9;
+}
+#crt_nm{
+    margin-left: 2px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.25s;
+}
+#crt_nm:hover{
+    color: #1BFDF9;
+}
+.prc{
+    margin-right: 38%;
+}
+.price{
+    font-family: "Outfit";
+    color: #1BFDF9;
+    position: relative;
+    left: 3px;
+    bottom: 3px;
+}
+.time{
+    color: #879CB9;
+    position: relative;
+    left: 3px;
+    bottom: 3px;
+    font-family: "Outfit";
+}
